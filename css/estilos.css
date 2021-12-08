@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: #F3F0D7;
+    margin-top: 200px;
+}
+
+.gradiente {
+    background-color: #CEE5D0;
+    background-image: linear-gradient(to left, #a7f0d1, #36c0ca);
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0;   
+}
+
+.enviosGratis {
+    color: black;
+    text-align: center;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+#carouselExampleFade {
+    z-index: -1;
+}
+
+.listasMenu a {
+    color: black;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+h1 {
+    color: #5E454B;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    animation-name: anitexto ;
+    animation-duration: 4s;
+}
+
+h2 {
+    color: #5E454B;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.catalogoProductos {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogoProductos, a {
+    text-decoration: none;
+    padding: 2%;
+}
+
+.catalogoProductos a img {
+    border-radius: 25%;
+}
+
+.catalogoProductos a img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.catalogoRopa {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.catalogoRopa a img {
+    border-radius: 25%;
+}
+
+.catalogoCamperas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogoCamperas img {
+    margin: auto;
+}
+
+.catalogoRemeras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogoRemeras img {
+    margin: auto;
+}
+
+.catalogoJeans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.catalogoJeans img {
+    margin: auto;
+}
+
+.catalogoVestidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogoVestidos img {
+    margin: auto;
+}
+
+.catalogoShorts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogoShorts img {
+    margin: auto;
+}
+
+.catalogoRopaDeportiva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogoRopaDeportiva img {
+    margin: auto;
+}
+
+.seccionEnvios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px;
+}
+
+.seguinos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorPreguntas h3, p{
+    margin: 25px;
+}
+
+.pieDePagina {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D8B384;
+    background-image: linear-gradient(to left, #D8B384, #f8b807 );
+    width: 100%;
+    height: 90px;
+    
+}
+
+.pieDeContacto {
+    position: absolute;
+    bottom: 0;
+}
+
+.mediosDePago {
+    display: flex;
+    align-items: center;
+}
+
+.contacto {
+    text-align: right;
+}
+
+.datosContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;    
+}
+
+.subtituloPreguntas {
+    margin-top: 50px;
+    margin-bottom: 50px;   
+}
+
+.subtituloContacto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.contenedorPreguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contenedorGrid {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 500px 500px 500px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+/*Animacion al titulo de la pagina*/
+
+@keyframes anitexto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+
