@@ -171,7 +171,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFF
+    background-color: #FFF;
     /*background-color: #D8B384;
     background-image: linear-gradient(to left, #D8B384, #f8b807 );*/
     width: 100%;
